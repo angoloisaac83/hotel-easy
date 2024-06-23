@@ -97,8 +97,9 @@ export const columns: ColumnDef<Payment>[] = [
       const [isEditOpen, setIsEditOpen] = useState(false);
       const openEdit = () =>{
          setIsEditOpen(true);
+        //  let rookno = roomno;
       }
-      const closeEdit = () => setIsModalOpen(false);
+      const closeEdit = () => setIsEditOpen(false);
  
       return (
         <>

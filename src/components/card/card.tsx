@@ -41,7 +41,7 @@ export default function Card() {
                 </span>
                 <ul className='flex flex-col gap-[5px]'>
                   <li>Total Income</li>
-                  <li className='text-2xl font-[500]'>{item.totalincome}</li>
+                  <li className='text-2xl font-[500]'>₦{item.totalincome}</li>
                 </ul>
               </div>
               <div className='flex flex-row-reverse w-[23%] p-[20px] rounded-xl shadow-xl px-[20px] bg-white items-center justify-between gap-[10px]'>
